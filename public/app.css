@@ -1,0 +1,24 @@
+h1{
+	color: purple;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+li{
+	margin-right: 64%;
+	margin-bottom: 20px;
+
+}
+
+li span{
+	float: right;
+	opacity: 0;
+	color: red;
+}
+
+li:hover span{
+	opacity: 1;
+	
+}
